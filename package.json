@@ -12,12 +12,7 @@
   "intl-equalizer": {
     "referenceLocale": "en",
     "localeDirectory": "messages"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
+  },  
   "lint-staged": {
     "*.{ts,js,tsx,jsx}": [
       "eslint --fix",
