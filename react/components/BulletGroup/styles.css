@@ -1,0 +1,39 @@
+
+.bullet__item--image {
+    width: 200px;
+    min-width: 200px;
+  }
+  
+  .bullet__item--link {
+    text-decoration: none;
+    font-size: 14px
+  }
+  
+  .bullet__container {
+    display: flex;
+    overflow: auto
+  }
+  
+  
+  .bullet__container::-webkit-scrollbar {
+    height: 3px
+  }
+  
+  .bullet__container::-webkit-scrollbar-track,
+  .bullet__container::-webkit-scrollbar-track {
+    background-clip: padding-box;
+    border-right: 13px solid transparent;
+    border-left: 13px solid transparent
+  }
+  
+  .bullet__container::-webkit-scrollbar-thumb {
+    background-color: rgb(146, 145, 145);
+  }
+
+  @media  screen and (min-width: 780px){
+    .bullet__item,
+    .bullet__item--image{
+      width: 100px;
+      min-width: 100px;
+    }
+  }
