@@ -1,6 +1,6 @@
 {
-  "version": "0.0.0",
-  "name": "CHANGE_ME",
+  "version": "0.0.1",
+  "name": "bullets-diagramation",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
@@ -12,12 +12,7 @@
   "intl-equalizer": {
     "referenceLocale": "en",
     "localeDirectory": "messages"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
+  },  
   "lint-staged": {
     "*.{ts,js,tsx,jsx}": [
       "eslint --fix",
@@ -40,6 +35,7 @@
     "lint-staged": "^10.5.1",
     "prettier": "^2.2.0",
     "typescript": "^3.9.6",
+    "prop-types": "^15.8.1",
     "@vtex/danger": "^0.2.7"
   }
 }
